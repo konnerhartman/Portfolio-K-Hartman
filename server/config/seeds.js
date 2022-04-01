@@ -1,10 +1,10 @@
 const db = require('./connection');
-const { Projects } = require('../models');
+const { Project } = require('../models');
 
 db.once('open', async () => {
-  await Projects.deleteMany();
+  await Project.deleteMany();
 
-  const projects = await Projects.insertMany([
+  const projects = await Project.insertMany([
     {
       name: 'TEST NAME',
       description:
