@@ -1,24 +1,14 @@
-const { Product } = require('../models');
+const { Project } = require('../models');
 
 const resolvers = {
   Query: {
-    products: async (parent, { category, name }) => {
+    projects: async (parent, { name }) => {
       const params = {};
 
-      if (category) {
-        params.category = category;
-      }
-
-      if (name) {
-        params.name = {
-          $regex: name
-        };
-      }
-
-      return await Product.find(params).populate('category');
+      return await Project.find(params);
     },
-    product: async (parent, { _id }) => {
-      return await Product.findById(_id).populate('category');
+    project: async (parent, { _id }) => {
+      return await Project.findById(_id);
     },
   },
 };
