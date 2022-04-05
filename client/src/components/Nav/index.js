@@ -5,10 +5,10 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 function Navi() {
 
   return (
-    <nav className="navbar navbar-light bg-dark p-3 d-flex">
+    <nav className="navbar navbar-light bg-dark d-flex">
       <div className="h1">
         <Link className="text-decoration-none d-flex" to="/">
-          <h1 className="text-white pt-4 px-3 d-none d-sm-block"><span>K.H. Portfolio</span></h1>
+          <h1 className="text-white d-none d-sm-block"><span>K.H. Portfolio</span></h1>
         </Link>
       </div>
 
