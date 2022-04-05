@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import Logo from "../../assets/KH-LOGO.png";
 
 function Navi() {
 
   return (
-    <nav className="navbar navbar-light bg-dark d-flex">
-      <div className="h1">
+    <nav className="navbar d-flex">
+      <div className="">
         <Link className="text-decoration-none d-flex" to="/">
-          <h1 className="text-white d-none d-sm-block"><span>K.H. Portfolio</span></h1>
+          <img className="p-3" src={Logo} alt="Konner Hartman Logo" height="70px"></img>
+          <h1 className="text-white d-none d-sm-block justify-content-center align-self-center"><span> Portfolio</span></h1>
         </Link>
       </div>
 
-      <Navbar className="nav-links" collapseOnSelect fixed='' expand='lg' bg='dark' variant='dark'>
+      <Navbar className="nav-links" collapseOnSelect fixed='' expand='lg' bg='dark' variant='light'>
         <Container className="">
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
