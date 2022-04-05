@@ -1,9 +1,10 @@
 import React from "react";
+import ProjectList from "../components/ProjectList";
 
 const Projects = () => {
     return (
         <>
-            <h2>Projects Test text.</h2>
+            <ProjectList />
         </>
     );
 };

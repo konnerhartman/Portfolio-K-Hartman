@@ -47,7 +47,7 @@ function ProjectList() {
 
   return (
     <div className="mt-2 text-center">
-      <h2 className='p-2'><span>My Pieces</span></h2>
+      <h2 className='p-2'><span>My Projects</span></h2>
       {state.projects.length ? (
         <div>
           <p>
