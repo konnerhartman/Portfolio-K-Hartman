@@ -5,9 +5,9 @@ import resume from '../assets/K.-Hartman-Resume.pdf';
 const Home = () => {
     return (
         <div className="row">
-            <div className="col-lg-1">
+            <div className="col-1 d-none d-sm-block">
             </div>
-            <div className="glass col-lg-10 rounded row">
+            <div className="glass col-lg-10 col-md-12 row">
             <div className="col-lg-8">
                 <div className="animated-title">
                     <div className="text-top">
@@ -39,7 +39,7 @@ const Home = () => {
                 </div>
             </aside>
             </div>
-            <div className="col-lg-1">
+            <div className="col-1 d-none d-sm-block">
             </div>
         </div>
     );

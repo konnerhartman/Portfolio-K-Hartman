@@ -19,6 +19,11 @@ body {
     background-color: #ffffff10;
     backdrop-filter: blur(5px);
     color: white;
+    border-radius: 10px;
+}
+
+Navbar {
+    background-color: none;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
