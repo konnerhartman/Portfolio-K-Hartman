@@ -4,7 +4,7 @@ import KHLogo from "../../assets/KH-LOGO-sm.png"
 function Footer() {
 return (
   <div>
-    <footer className="text-white fixed-bottom">
+    <footer className="text-white sticky-bottom">
       <div className="row px-2 row text-center">
         <p className="col-lg-4 col-sm-12">LinkedIn, Github, Resume</p>
         <div className="col-lg-2 d-none d-sm-block"></div>
