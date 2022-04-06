@@ -26,10 +26,11 @@ const Contact = () => {
         <div className="col-1 d-none d-sm-block">
         </div>
         <div className="glass col-lg-10 col-md-12 row">
-            <div className='col-md-6'>
+        <h2 className='text-center'>Contact Me</h2>
+            <div className='col-md-4'>
                 <img className="prof-pic rounded-circle" src={ProfPic} alt="Konner sitting infront of his desk with a big smile on his face!."/>
             </div>
-            <div className="col-md-6 p-3">
+            <div className="col-md-8 p-3">
                 <form onSubmit={sendEmail} id="contact-form" name="contact-form" action="mail.php" method="POST">
                 <div className="row mb-3">
                     <div className="col-md-6">
