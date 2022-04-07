@@ -7,7 +7,6 @@ import { QUERY_PROJECTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
-import { Link } from "react-router-dom";
 
 function ProjectList() {
   const [state, dispatch] = useStoreContext();
@@ -43,12 +42,6 @@ function ProjectList() {
       <h2 className='p-2'><span>My Projects</span></h2>
       {state.projects.length ? (
         <div>
-          <p>
-            For any inquiries about pricing or custom pieces, please feel free to
-            <Link className='p-1 text-dark' to="/contact">
-              contact me.
-            </Link>
-          </p>
           {filterProjects().map((project) => (
             <ProjectItem
               key={project._id}
