@@ -14,7 +14,7 @@ function Navi() {
         </Link>
       </div>
 
-      <Navbar className="nav-links" collapseOnSelect fixed='' expand='lg' bg='dark' variant='light'>
+      <Navbar className="nav-links" collapseOnSelect expand='lg' bg='none' variant='dark'>
         <Container className="">
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
