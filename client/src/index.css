@@ -1,39 +1,42 @@
 html, body {
-    background-color: aquamarine;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+  background-color: aquamarine;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
-    background-color: #d7cec7; 
-    background-image: url(./assets/background-bw.jpg);
-    background-attachment: fixed;
-    background-position: bottom left; 
-    background-repeat: no-repeat; background-size: cover;
+  background-color: #d7cec7; 
+  background-image: url(./assets/background-bw.jpg);
+  background-attachment: fixed;
+  background-position: bottom left; 
+  background-repeat: no-repeat; background-size: cover;
 }
 
 .glass {
-    background-color: #ffffff10;
-    backdrop-filter: blur(5px);
-    color: white;
-    border-radius: 10px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(5px);
+  color: white;
+  border-radius: 10px;
 }
 
 .devicon {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .prof-pic {
-    width: 60vh;
+  width: 60vh;
     
 }
 
 .contact {
-    font-size: 55px;
-    color: #ffffff;
+  font-size: 55px;
+}
+
+.footer-icon, .contact {
+  color: #ffffff;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
