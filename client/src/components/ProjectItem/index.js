@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink, faCode } from '@fortawesome/free-solid-svg-icons';
 
 function ProjectItem(item) {
 
@@ -11,18 +13,20 @@ function ProjectItem(item) {
   } = item;
 
   return (
-    <div className="card item-card p-2 m-2 d-inline-flex shadow">
-      <div>
-          <img
-            className="card-img-top gallery-img"
-            alt={name}
-            src={`/images/${gif}`}
-          />
-        <div className="card-body text-dark ">
-          <h5 className="card-title">{name}</h5>
+    <div className="d-inline-flex p-2">
+      <div className="row">
+        <img
+          className="project-img col-lg-4"
+          alt={name}
+          src={`/images/${gif}`}
+        />
+        <div className="text-dark col-lg-8 project-body">
+          <div className="row ">
+            <h5 className="card-title col-10">{name}</h5>
+            <a className="card-text col-1" target="_blank" rel="noreferrer" href={link}><FontAwesomeIcon icon={faLink} /></a>
+            <a className="card-text col-1" target="_blank" rel="noreferrer" href={repo}><FontAwesomeIcon icon={faCode} /></a>
+          </div>
           <p className="card-text">{description}</p>
-          <p className="card-text">{link}</p>
-          <p className="card-text">{repo}</p>
         </div>
       </div>
     </div>

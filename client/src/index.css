@@ -21,13 +21,21 @@ body {
   border-radius: 10px;
 }
 
+.project-img {
+ height: fit-content;
+} 
+
+.project-body {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
 .devicon {
   font-size: 50px;
 }
 
 .prof-pic {
   width: 60vh;
-    
 }
 
 .contact {

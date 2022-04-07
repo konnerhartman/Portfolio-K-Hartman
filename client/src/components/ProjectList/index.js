@@ -38,26 +38,32 @@ function ProjectList() {
   }
 
   return (
-    <div className="mt-2 text-center text-white">
-      <h2 className='p-2'><span>My Projects</span></h2>
-      {state.projects.length ? (
-        <div>
-          {filterProjects().map((project) => (
-            <ProjectItem
-              key={project._id}
-              _id={project._id}
-              gif={project.gif}
-              name={project.name}
-              description={project.description}
-              link={project.link}
-              repo={project.repo}
-            />
-          ))}
-        </div>
-      ) : (
-        <h3>I haven't added any projects yet!</h3>
-      )}
-      {loading ? <FontAwesomeIcon className='spinner' icon={faScrewdriverWrench} /> : null}
+    <div className="row text-center">
+      <div className="col-1 d-none d-sm-block">
+      </div>
+      <div className="glass col-lg-10 col-md-12 row">
+        <h2 className='p-2'><span>My Projects</span></h2>
+        {state.projects.length ? (
+          <div>
+            {filterProjects().map((project) => (
+              <ProjectItem
+                key={project._id}
+                _id={project._id}
+                gif={project.gif}
+                name={project.name}
+                description={project.description}
+                link={project.link}
+                repo={project.repo}
+              />
+            ))}
+          </div>
+        ) : (
+          <h3>I haven't added any projects yet!</h3>
+        )}
+        {loading ? <FontAwesomeIcon className='spinner' icon={faScrewdriverWrench} /> : null}
+      </div>
+      <div className="col-1 d-none d-sm-block">
+      </div>
     </div>
   );
 }
