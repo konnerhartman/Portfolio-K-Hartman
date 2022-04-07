@@ -30,12 +30,20 @@ db.once('open', async () => {
       gif: 'BuggysBlog.gif'
     },
     {
+      name: 'C.A.P.E.S.',
+      description:
+        "You’re what some would call a “regular person.” You don’t have super powers, and you need a hand. Maybe your cat is stuck in a tree. Perhaps you’ve got a clogged toilet… or worse… THANOS HAS APPEARED ON YOUR PLANET AND IS EXECUTING A PLAN TO DESTROY YOUR WORLD. If this is you… then you need CAPES. Capes is an app used to summon the superhero (or superheroes) of your choosing. Login (or register), describe your emergency, and select the superheroes best suited for your needs. This project was built using the MERN stack by the proud team members listed in the contributors section.",
+      link: 'https://capes-app.herokuapp.com/',
+      repo: 'https://github.com/konnerhartman/CAPES',
+      gif: 'C.A.P.E.S..gif'
+    },
+    {
       name: 'Fetch A Buzz',
       description:
         'Fetch A Buzz is an app created as a class project by myself and two other classmates. This app allows the user to select certain cocktails and see the movie that made the drink famous. To achieve this we utilized Materialize (CSS framework), JQuery, and two APIs: OMDB and TheCocktailDB. My roll in this project was a wide spread of tasks, ranging from front end design, JavaScript functionality, to team managing within GitHub and making sure any branch issues were resolved correctly, the main branch remained clean, and each member stayed on task by using the KANBAN board on GitHub.',
       link: 'https://konnerhartman.github.io/Fetch-A-Buzz/',
       repo: 'https://github.com/konnerhartman/Fetch-A-Buzz',
-      gif: 'Fetch-A-Buzz.png'
+      gif: 'Fetch_A_Buzz.gif'
     },
     
   ]);
