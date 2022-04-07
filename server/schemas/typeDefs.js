@@ -16,9 +16,7 @@ const typeDefs = gql`
     project(_id: ID!): Project
   }
 
-  type Mutation {
-    updateProject(_id: ID!): Project
-  }
+
 `;
 
 module.exports = typeDefs;

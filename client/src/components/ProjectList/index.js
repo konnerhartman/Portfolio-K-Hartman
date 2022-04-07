@@ -12,8 +12,6 @@ import { Link } from "react-router-dom";
 function ProjectList() {
   const [state, dispatch] = useStoreContext();
 
-  const { currentCategory } = state;
-
   const { loading, data } = useQuery(QUERY_PROJECTS);
 
   useEffect(() => {
@@ -36,17 +34,12 @@ function ProjectList() {
   }, [data, loading, dispatch]);
 
   function filterProjects() {
-    if (!currentCategory) {
-      return state.projects;
-    }
-
-    return state.projects.filter(
-      (project) => project.category._id === currentCategory
-    );
+    
+    return state.projects;
   }
 
   return (
-    <div className="mt-2 text-center">
+    <div className="mt-2 text-center text-white">
       <h2 className='p-2'><span>My Projects</span></h2>
       {state.projects.length ? (
         <div>

@@ -1,7 +1,5 @@
 import { useReducer } from 'react';
-import {
-  UPDATE_PROJECTS,
-} from './actions';
+import { UPDATE_PROJECTS } from './actions';
 
 export const reducer = (state, action) => {
   switch (action.type) {

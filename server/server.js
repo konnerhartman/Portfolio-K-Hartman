@@ -12,7 +12,7 @@ const server = new ApolloServer({
   resolvers,
 });
 
-// server.applyMiddleware({ app });
+server.applyMiddleware({ app });
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
