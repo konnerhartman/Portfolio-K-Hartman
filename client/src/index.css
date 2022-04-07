@@ -27,12 +27,13 @@ body {
 }
 
 .prof-pic {
-    height: 18rem;
+    width: 60vh;
+    
 }
 
 .contact {
     font-size: 55px;
-    color: white
+    color: #ffffff;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
