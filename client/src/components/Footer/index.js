@@ -1,8 +1,9 @@
 import React from "react";
 import KHLogo from "../../assets/KH-LOGO-sm.png"
 import resume from '../../assets/K.-Hartman-Resume.pdf';
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMobileAlt, faFileInvoice  } from '@fortawesome/free-solid-svg-icons';
+import { faMobileAlt, faEnvelope  } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
@@ -13,7 +14,9 @@ return (
         <a className='footer-icon px-3' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/konner-hartman/"><FontAwesomeIcon icon={faLinkedin} /></a>
         <a className='footer-icon px-3' target="_blank" rel="noreferrer" href="https://github.com/konnerhartman"><FontAwesomeIcon icon={faGithubAlt} /></a>
         <a className='footer-icon px-3' href="tel:214-226-4278"><FontAwesomeIcon icon={faMobileAlt} /></a>
-        <a className='footer-icon px-3' href={resume}><FontAwesomeIcon icon={faFileInvoice} /></a>
+        <Link to="/contact">
+          <a className='footer-icon px-3' href={resume}><FontAwesomeIcon icon={faEnvelope} /></a>
+        </Link>
       </div>
       <div className="col-lg-2 d-none d-sm-block"></div>
       <div className="col-lg-2 d-none d-sm-block"></div>

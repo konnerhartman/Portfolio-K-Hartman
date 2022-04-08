@@ -8,9 +8,9 @@ const Skills = () => {
             </div>
             <div className="glass col-lg-10 col-md-12 row">
                 <aside className="d-none d-sm-none d-md-block d-lg-block col-lg-4">
-                    <img className="img-fluid" src={compEmoji} alt="Emoji of Konner on his computer."/>
+                    <img className="img-fluid pt-5" src={compEmoji} alt="Emoji of Konner on his computer."/>
                 </aside>
-                <div className='col-lg-8 col-md-8 col-sm-12 text-center my-5'>
+                <div className='col-lg-8 col-md-8 col-sm-12 text-center'>
                     <h2 className='pb-2 fw-bold'>Skills</h2>
                     <div className='row'>
                         <div className='col-lg-6 col-sm-12'>

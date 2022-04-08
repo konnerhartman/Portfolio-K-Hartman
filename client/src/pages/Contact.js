@@ -25,7 +25,7 @@ const Contact = () => {
     <div className="row">
         <div className="col-1 d-none d-sm-block">
         </div>
-        <div className="glass col-lg-10 col-md-12 row p-2">
+        <div className="glass col-lg-10 col-md-12 row">
             <h2 className='text-center'>Reach Out</h2>
             <div className='col-md-5 d-none d-sm-block'>
                 <img className="prof-pic rounded-circle" src={ProfPic} alt="Konner sitting infront of his desk with a big smile on his face!."/>
