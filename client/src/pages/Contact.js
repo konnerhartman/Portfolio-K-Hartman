@@ -26,11 +26,11 @@ const Contact = () => {
         <div className="col-1 d-none d-sm-block">
         </div>
         <div className="glass col-lg-10 col-md-12 row">
-            <h2 className='text-center'>Reach Out</h2>
             <div className='col-md-5 d-none d-sm-block'>
-                <img className="prof-pic rounded-circle" src={ProfPic} alt="Konner sitting infront of his desk with a big smile on his face!."/>
+                <img className="prof-pic rounded-circle pt-5" src={ProfPic} alt="Konner sitting infront of his desk with a big smile on his face!."/>
             </div>
             <div className="col-md-7 col-sm-12">
+                <h2 className='text-center'>Reach Out</h2>
                 <div className='col-12 row text-center'>
                     <a className='contact col-3' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/konner-hartman/"><FontAwesomeIcon icon={faLinkedin} /></a>
                     <a className='contact col-3' target="_blank" rel="noreferrer" href="https://github.com/konnerhartman"><FontAwesomeIcon icon={faGithubAlt} /></a>
@@ -70,7 +70,7 @@ const Contact = () => {
                         </div>
                         <div className='text-end'>
                             <button className='btn btn-secondary px-4' type="submit">
-                                Send <FontAwesomeIcon icon={faPaperPlane} />
+                                Send <FontAwesomeIcon className="px-2" icon={faPaperPlane} />
                             </button>
                         </div>
                     </div>

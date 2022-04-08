@@ -20,15 +20,15 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="text-bottom">
-                        <div>Full Stack Web Developer</div>
+                        <div>Full Stack Web <span className="dev text-center">&lt;Developer/&gt;</span></div>
                     </div>
                 </div>
             </div>
             <aside className="mt-4 col-lg-4 col-sm-12">
                 <img className="d-none d-sm-none d-md-block d-lg-block img-fluid pb-2" src={waveEmoji} alt="Emoji of Konner waving his hand."/>
                 <div className="text-center">
-                    <p className="fw-bold">Let's get to business!</p>
-                    <div className=''>
+                    <p>Let's get to business!</p>
+                    <div>
                         <button type="button" className="btn homeBtn btn-outline-light">
                             <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href="https://github.com/konnerhartman">
                                 <FontAwesomeIcon className="px-2" icon={faGithubAlt} />

@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300&family=Teko:wght@400;500&display=swap');
+
 html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+
+nav, h2, h3 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.glass, p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 main {
@@ -46,6 +57,7 @@ body {
 
 .btn {
   width: 10rem;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .devicon {
@@ -62,6 +74,13 @@ body {
 
 .footer-icon, .contact {
   color: #ffffff;
+}
+
+.dev {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
