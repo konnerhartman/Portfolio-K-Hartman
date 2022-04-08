@@ -38,7 +38,7 @@ const Contact = () => {
                     <a className='contact col-3' href={resume}><FontAwesomeIcon icon={faFileInvoice} /></a>
                 </div>
                 <form className='py-2' onSubmit={sendEmail} id="contact-form" name="contact-form" action="mail.php" method="POST">
-                    <p className='text-center'>-Send Me An Email-</p>
+                    <h5 className='text-center'>-Send Me An Email-</h5>
                     <div className="row mb-3">
                         <div className="col-md-6">
                             <div className="md-form mb-0">

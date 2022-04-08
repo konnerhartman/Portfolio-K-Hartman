@@ -23,6 +23,7 @@ main {
 
 nav {
   height: 14vh;
+  overflow: scroll;
 }
 
 footer {
