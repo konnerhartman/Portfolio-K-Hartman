@@ -15,7 +15,7 @@ const About = () => {
                     <h2 className="fw-bold">About Me</h2>
                     <div>
                         <p className='mt-4'>An innovative problem-solver passionate about user experience, my current focus is on app functionality and development.</p>
-                        <p className='mt-4'>I am a Full Stack Web Developer with an emphasis on back end development, holding a Bachelor of Science From Texas A&M University. I recently received a certificate in Full Stack Development from Southern Methodist University, where I developed skills in JavaScript, MySQL, MongoDB, NodeJS, React.js, and more.</p>
+                        <p className='mt-4'>I am a Full Stack Web Developer with an emphasis on the MERN stack and React, holding a Bachelor of Science From Texas A&M University. I recently received a certificate in Full Stack Development from Southern Methodist University, where I developed skills in JavaScript, MySQL, MongoDB, NodeJS, React.js, and more.</p>
                         <button type="button" className="aboutBtn btn btn-outline-light mt-4">
                             <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href={resume}>Resume</a>
                         </button>

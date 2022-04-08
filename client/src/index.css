@@ -6,6 +6,18 @@ html, body {
   overflow-x: hidden;
 }
 
+main {
+  min-height: 80vh; 
+}
+
+nav {
+  height: 14vh;
+}
+
+footer {
+  height: 6vh;
+}
+
 body {
   background-color: #d7cec7; 
   background-image: url(./assets/background-bw.jpg);

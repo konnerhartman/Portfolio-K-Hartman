@@ -7,7 +7,7 @@ import { faLinkedin, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
 return (
-  <footer className="text-white sticky-bottom">
+  <footer className="text-white">
     <div className="row px-2 row text-center">
       <div className="col-lg-4 col-sm-12">
         <a className='footer-icon px-3' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/konner-hartman/"><FontAwesomeIcon icon={faLinkedin} /></a>

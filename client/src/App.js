@@ -33,15 +33,19 @@ function App() {
         <div>
           <StoreProvider>
             <Nav />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/contact" component={Contact} />
-              <Route exact path="/skills" component={Skills} />
-              <Route exact path="/projects" component={Projects} />
-              <Route component={NoMatch} />
-            </Switch>
-            <Footer />
+            <main>
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/contact" component={Contact} />
+                <Route exact path="/skills" component={Skills} />
+                <Route exact path="/projects" component={Projects} />
+                <Route component={NoMatch} />
+              </Switch>
+            </main>
+            <footer>
+              <Footer />
+            </footer>
           </StoreProvider>
         </div>
       </Router>
