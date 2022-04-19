@@ -69,8 +69,8 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className='text-end'>
-                            <button className='btn btn-secondary px-4' type="submit">
-                                Send <FontAwesomeIcon className="px-2" icon={faPaperPlane} />
+                            <button className='btn btn-secondary' type="submit">
+                                Send <FontAwesomeIcon className="px-1" icon={faPaperPlane} />
                             </button>
                         </div>
                     </div>

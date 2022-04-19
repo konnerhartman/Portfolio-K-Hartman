@@ -20,7 +20,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="text-bottom">
-                        <div>Full Stack Web <span className="dev text-center">&lt;Developer/&gt;</span></div>
+                        <div>Full Stack Web <span className="dev">&lt; Developer /&gt;</span></div>
                     </div>
                 </div>
             </div>
@@ -29,19 +29,19 @@ const Home = () => {
                 <div className="text-center">
                     <p>Let's get to business!</p>
                     <div>
-                        <button type="button" className="btn homeBtn btn-outline-light">
+                        <button type="button" className="btn btn-outline-light">
                             <a target="_blank" rel="noreferrer" className="nav-link text-reset" href="https://github.com/konnerhartman">
                                 <FontAwesomeIcon className="px-2" icon={faGithubAlt} />
                                 Github
                             </a>
                         </button>
-                        <button type="button" className="btn homeBtn btn-outline-light">
+                        <button type="button" className="btn btn-outline-light">
                             <a target="_blank" rel="noreferrer" className="nav-link text-reset" href="https://www.linkedin.com/in/konner-hartman/">
                                 <FontAwesomeIcon className="px-2" icon={faLinkedin} />
                                 LinkedIn
                             </a>
                         </button>
-                        <button type="button" className="btn homeBtn btn-outline-light">
+                        <button type="button" className="btn btn-outline-light">
                             <a target="_blank" rel="noreferrer" className="nav-link text-reset" href={resume}>
                                 <FontAwesomeIcon className="px-2" icon={faFile} />
                                 Resume 

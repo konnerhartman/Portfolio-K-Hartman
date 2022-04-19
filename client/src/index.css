@@ -74,24 +74,21 @@ body {
 }
 
 .footer-icon:hover {
-  color: #e1d900;
+  color: #ffc106;
 }
 
 .contact:hover {
-  color: #e1d900;
+  color: #ffc106;
 }
 
 .dev {
-  color: #000000;
-  background-color: #e1d900;
-  border-radius: 5px;
-  font-weight: bold;
+  color: #ffc106;
 }
 
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #e1d900;
+  color: #ffc106;
 }
 
 .hover-underline-animation:after {
@@ -102,7 +99,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #e1d900;
+  background-color: #ffc106;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
