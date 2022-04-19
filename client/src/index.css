@@ -73,11 +73,43 @@ body {
   color: #ffffff;
 }
 
+.footer-icon:hover {
+  color: #e1d900;
+}
+
+.contact:hover {
+  color: #e1d900;
+}
+
 .dev {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #e1d900;
   border-radius: 5px;
   font-weight: bold;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #e1d900;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e1d900;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
