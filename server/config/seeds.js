@@ -22,6 +22,14 @@ db.once('open', async () => {
       gif: 'Employee_Tracker_SQL.gif'
     },
     {
+      name: 'Team Profile Generator',
+      description:
+        'This app allows the user to develop a team profile page with three options of employees (manager, engineer, and intern). It was built using OOP (object orrianted programming) and Node.JS. My motivation to build this app was to allow the user to quickly and easily create a team page of all their employees. I built this app to gain knowledge, experience, and practice with back-end web development using OOP and Node. This app solves the problem of having to build an entire teams page from scratch. An empolyeer can simple answer questions from a prompt and have their team page generated. While building this app I learned about OOP, NPM Tests, and Node.JS',
+      link: 'https://www.youtube.com/watch?v=dgEncg6hH9Y',
+      repo: 'https://github.com/konnerhartman/Team-Profile-Generator',
+      gif: 'Fetch_A_Buzz.gif'
+    },
+    {
       name: "Buggy's Tech Blog",
       description:
         "This app is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
