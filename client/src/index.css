@@ -6,6 +6,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  font-size: larger;
 }
 
 nav, h2, h3 {
@@ -19,11 +20,6 @@ nav, h2, h3 {
 
 main {
   min-height: 80vh; 
-}
-
-nav {
-  height: 14vh;
-  overflow: scroll;
 }
 
 footer {
