@@ -58,9 +58,9 @@ function ProjectList() {
             ))}
           </div>
         ) : (
-          <h3>I haven't added any projects yet!</h3>
+          <h5>These aren't the projects you're looking for...</h5>
         )}
-        {loading ? <FontAwesomeIcon icon={faJedi} spin /> : null}
+        {loading ? <FontAwesomeIcon icon={faJedi} size='6x' spin /> : null}
       </div>
       <div className="col-1 d-none d-sm-block">
       </div>
