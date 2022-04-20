@@ -35,7 +35,7 @@ const Contact = () => {
                     <a className='contact col-3' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/konner-hartman/"><FontAwesomeIcon icon={faLinkedin} /></a>
                     <a className='contact col-3' target="_blank" rel="noreferrer" href="https://github.com/konnerhartman"><FontAwesomeIcon icon={faGithubAlt} /></a>
                     <a className='contact col-3' href="tel:214-226-4278"><FontAwesomeIcon icon={faMobileAlt} /></a>
-                    <a className='contact col-3' href={resume}><FontAwesomeIcon icon={faFileInvoice} /></a>
+                    <a className='contact col-3' target="_blank" rel="noreferrer" href={resume}><FontAwesomeIcon icon={faFileInvoice} /></a>
                 </div>
                 <form className='py-2' onSubmit={sendEmail} id="contact-form" name="contact-form" action="mail.php" method="POST">
                     <h5 className='text-center'>-Send Me An Email-</h5>
