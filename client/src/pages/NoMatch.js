@@ -6,7 +6,7 @@ import { faGhost } from '@fortawesome/free-solid-svg-icons';
 const NoMatch = () => {
     return (
         <div className="text-center no-match p-0 pb-3">
-            <FontAwesomeIcon className="no-match-header" icon={faGhost} />
+            <FontAwesomeIcon className="no-match-header" icon={faGhost} fade />
             <h2 className="no-match-header">GAME OVER!</h2>
             <h4>Whoops! You found a 404 page!
             </h4>

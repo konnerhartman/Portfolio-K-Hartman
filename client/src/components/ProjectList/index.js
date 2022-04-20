@@ -6,7 +6,7 @@ import { useQuery } from '@apollo/client';
 import { QUERY_PROJECTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import { faJedi } from '@fortawesome/free-solid-svg-icons';
 
 function ProjectList() {
   const [state, dispatch] = useStoreContext();
@@ -60,7 +60,7 @@ function ProjectList() {
         ) : (
           <h3>I haven't added any projects yet!</h3>
         )}
-        {loading ? <FontAwesomeIcon className='spinner' icon={faScrewdriverWrench} /> : null}
+        {loading ? <FontAwesomeIcon icon={faJedi} spin /> : null}
       </div>
       <div className="col-1 d-none d-sm-block">
       </div>
