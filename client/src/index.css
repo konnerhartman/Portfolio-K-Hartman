@@ -78,6 +78,14 @@ body {
   font-size: 55px;
 }
 
+.no-match {
+  color: #ffc106;
+}
+
+.no-match-header {
+  font-size: 200px;
+}
+
 .footer-icon, .contact {
   color: #ffffff;
 }
