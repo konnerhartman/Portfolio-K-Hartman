@@ -13,6 +13,11 @@ nav, h2, h3 {
   font-family: 'Bebas Neue', cursive;
 }
 
+h2 span {
+  text-decoration: underline 2.5px;
+  text-decoration-color: #ffc106;
+}
+
 .glass, p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -47,6 +52,10 @@ body {
  height: fit-content;
 } 
 
+.card-head {
+  border-bottom: solid 2px black;
+}
+
 .project-body {
   background-color: #ffffff;
   border-radius: 10px;
@@ -76,6 +85,10 @@ body {
 .footer-icon:hover {
   color: #ffc106;
 }
+
+.link:hover {
+  color: #ffc106;
+} 
 
 .contact:hover {
   color: #ffc106;

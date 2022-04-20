@@ -21,10 +21,12 @@ function ProjectItem(item) {
           src={`/images/${gif}`}
         />
         <div className="text-dark col-lg-8 project-body">
-          <div className="row ">
-            <h5 className="card-title col-10">{name}</h5>
-            <a className="card-text col-1" target="_blank" rel="noreferrer" href={link}><FontAwesomeIcon icon={faLink} /></a>
-            <a className="card-text col-1" target="_blank" rel="noreferrer" href={repo}><FontAwesomeIcon icon={faCode} /></a>
+          <div className="row card-head pt-2">
+            <div className="col-1"></div>
+            <h5 className="col-8 text-start">{name}</h5>
+            <a className="col-1 link" target="_blank" rel="noreferrer" href={link}><FontAwesomeIcon icon={faLink} /></a>
+            <a className="col-1 link" target="_blank" rel="noreferrer" href={repo}><FontAwesomeIcon icon={faCode} /></a>
+            <div className="col-1"></div>
           </div>
           <p className="card-text">{description}</p>
         </div>

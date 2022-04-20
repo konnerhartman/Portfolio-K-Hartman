@@ -11,7 +11,7 @@ const Skills = () => {
                     <img className="img-fluid pt-5" src={compEmoji} alt="Emoji of Konner on his computer."/>
                 </aside>
                 <div className='col-lg-8 col-md-8 col-sm-12 text-center'>
-                    <h2 className='pb-2 fw-bold'>Skills</h2>
+                    <h2><span>Sk</span>ills</h2>
                     <div className='row'>
                         <div className='col-lg-6 col-sm-12'>
                             <h4 className='pb-3'>Front End</h4>

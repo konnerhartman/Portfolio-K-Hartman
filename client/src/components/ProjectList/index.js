@@ -42,7 +42,7 @@ function ProjectList() {
       <div className="col-1 d-none d-sm-block">
       </div>
       <div className="glass col-lg-10 col-md-12 row">
-        <h2><span>My Projects</span></h2>
+        <h2><span>Pr</span>ojects</h2>
         {state.projects.length ? (
           <div>
             {filterProjects().map((project) => (

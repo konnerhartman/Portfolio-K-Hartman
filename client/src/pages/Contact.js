@@ -30,7 +30,7 @@ const Contact = () => {
                 <img className="prof-pic rounded-circle pt-5" src={ProfPic} alt="Konner sitting infront of his desk with a big smile on his face!."/>
             </div>
             <div className="col-md-7 col-sm-12">
-                <h2 className='text-center'>Reach Out</h2>
+                <h2 className='text-center'><span>Re</span>ach Out</h2>
                 <div className='col-12 row text-center'>
                     <a className='contact col-3' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/konner-hartman/"><FontAwesomeIcon icon={faLinkedin} /></a>
                     <a className='contact col-3' target="_blank" rel="noreferrer" href="https://github.com/konnerhartman"><FontAwesomeIcon icon={faGithubAlt} /></a>
